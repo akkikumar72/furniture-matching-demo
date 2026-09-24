@@ -2,7 +2,7 @@
 
 A local Next.js application: upload one cropped image, choose Sweden, Germany or the UK, and compare up to five visually similar products with current country purchase evidence. The six reference crops from the supplied PDF are included as sample inputs.
 
-![Form showing a wooden chair matched to an IKEA Stockholm chair in stock in Sweden](docs/screenshot.png)
+![Form showing a coffee table matched to two IKEA tables in stock in Sweden](docs/screenshot.jpg)
 
 ## Current state
 
