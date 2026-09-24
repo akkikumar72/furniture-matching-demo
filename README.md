@@ -34,24 +34,3 @@ Requires Node.js 22+ and npm. Run commands from this folder.
 5. Select the wooden chair, side table, coffee table, green chair and cantilever chair samples, one at a time. Run a search for each. Inspect actual photos, purchase URLs, prices and evidence. Change to Germany or the UK and search again. Repeat an unchanged search to check the cache label. Try the poster too; its visual specificity and sparse catalogue coverage make it a harder case.
 
 For a production build running locally: `npm run build`, then `npm start`. There is no deployment configuration.
-
-## Validation and limitations
-
-Run `npm test`, `npm run typecheck`, `npm run lint`, and `npm run build`. The focused tests cover country/stock/freshness eligibility, variant-safe deduplication, source provenance, untrusted AI IDs/URLs, ambiguous listing data and private-network fetch rejection. Browser rehearsal notes and the short recording are in `docs/validation.md` when present.
-
-- Catalogue coverage is IKEA only; live web discovery is the path to other retailers. Different countries can have fewer offers or different variants. Posters are a particular coverage gap.
-- The parser intentionally supports explicit product JSON-LD evidence. Retailers that block server requests, require JavaScript, or publish delivery only in prose may appear as unconfirmed or be omitted. This favors evidence over recall.
-- Retailer structured data can lag actual stock. Listed prices can change and may exclude delivery charges. Always use the purchase link to confirm checkout eligibility.
-- Generative visual ranking is subjective. Low-resolution, obscured furniture and subtle construction details require actual rehearsal. There is no claim of exact identity or measured retrieval accuracy.
-- The UI can display fewer than five results, including zero, when relevance or country evidence is insufficient. A web outage must remain visible.
-- Fresh searches can take around one to two minutes. Cached requests are substantially faster. See the validation report for observed timings; API billing cost was not measured. Catalogue preparation itself does not invoke AI.
-- The initial rehearsal exposed a web-search timeout. Discovery now requests a short search-only pass with low search context and a 120-second timeout. This is a best-effort prompt limit, not a guaranteed number of tool calls. A source timeout remains visible and does not hide usable catalogue results.
-
-## Reference documentation
-
-- [Next.js Route Handlers](https://nextjs.org/docs/app/api-reference/file-conventions/route)
-- [OpenAI image inputs](https://developers.openai.com/api/docs/guides/images-vision)
-- [OpenAI web and image search](https://developers.openai.com/api/docs/guides/tools-web-search)
-- [OpenAI text embeddings](https://developers.openai.com/api/docs/guides/embeddings)
-- [Supabase vector columns](https://supabase.com/docs/guides/ai/vector-columns)
-- [Supabase private storage](https://supabase.com/docs/guides/storage/buckets/fundamentals)
