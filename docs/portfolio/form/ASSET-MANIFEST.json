@@ -17,12 +17,21 @@
       "portfolioPath": "/assets/form-thumbnail.webp",
       "set": "core",
       "role": "Grid cover",
-      "alt": "Form in Urbanist typography, with a lime frame, rounded white panel and an actual furnished-room render.",
-      "caption": "Sunbeam-inspired presentation of the actual Form output.",
-      "width": 1280,
-      "height": 960,
-      "bytes": 128020,
-      "source": "Actual Form app capture; branded frames are portfolio presentation artwork"
+      "alt": "Square Form banner in Urbanist typography, with a lime frame, rounded white panel and an actual furnished-room render.",
+      "caption": "1200 × 1200 px · Square cover for the portfolio grid.",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 149230,
+      "source": "Actual Form app capture; branded frames are portfolio presentation artwork",
+      "alternatives": [
+        {
+          "file": "assets/form-thumbnail.png",
+          "format": "png",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 1097352
+        }
+      ]
     },
     {
       "file": "assets/form-hero.webp",

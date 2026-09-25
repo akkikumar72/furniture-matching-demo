@@ -6,6 +6,12 @@
 
 ![Form portfolio hero with Urbanist typography, a rounded white panel, lime framing and an actual AI-rendered room](assets/form-hero.webp)
 
+## Square portfolio banner
+
+The grid cover matches the Akkivo reference: **1200 × 1200 px (1:1)**. Use WebP for the portfolio, or PNG when a lossless image is preferred. The composition was reflowed for a square without stretching the room image.
+
+[![Form square portfolio banner](assets/form-thumbnail.webp)](assets/form-thumbnail.png)
+
 ## Review the preview
 
 The images below render directly in GitHub. For the interactive image library, download the pack and open `index.html`, or run this from the repository root:
@@ -18,11 +24,11 @@ Open **http://127.0.0.1:3047/**. The preview switches between Original, Design a
 
 ## Image library
 
-The pack includes **13 WebP images**. Use the six core images for one grid tile and one case study; the remaining seven are supporting alternatives. [The manifest](ASSET-MANIFEST.json) includes dimensions, captions and alt text.
+The pack includes **13 WebP images**, plus a PNG version of the square grid cover. Use the six core images for one grid tile and one case study; the remaining seven are supporting alternatives. [The manifest](ASSET-MANIFEST.json) includes dimensions, captions and alt text.
 
 | Placement | Image |
 | --- | --- |
-| Portfolio grid | [Grid cover](assets/form-thumbnail.webp) |
+| Portfolio grid · 1200 × 1200 | [WebP](assets/form-thumbnail.webp) · [PNG](assets/form-thumbnail.png) |
 | Case-study hero | [Hero](assets/form-hero.webp) |
 | Lead image | [Design workspace](assets/form-workspace.webp) |
 | The idea | [Original and rendered comparison](assets/form-before-after.webp) |

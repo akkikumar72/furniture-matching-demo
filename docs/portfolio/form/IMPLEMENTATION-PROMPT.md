@@ -40,3 +40,5 @@ Run `npm run audit:content`, `npm run typecheck` and the repository's integrity 
 Inspect the actual homepage and Form modal at desktop and mobile widths. Verify there is one new Form tile, no missing images or horizontal overflow, readable hero text, complete section images, Escape/close behaviour, focus restoration to the tile and reduced-motion behaviour. Confirm Akkivo still opens normally and existing content is unchanged. Capture the finished tile and open case study.
 
 Return a concise list of changed files, checks performed and any unresolved issue. Do not commit, push or deploy unless separately requested.
+
+The grid cover `form-thumbnail.webp` is **1200 × 1200 px (1:1)**, matching the Akkivo banner. Use a square grid image container without stretching. A same-size PNG alternative is included as `form-thumbnail.png`; keep the wide `form-hero.webp` for the case-study hero.
