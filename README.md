@@ -16,6 +16,8 @@ The photo-based room-studio prototype has a **Sunbeam-inspired portfolio pack** 
 
 [![Form portfolio preview](docs/portfolio/form/assets/form-hero.webp)](docs/portfolio/form/README.md)
 
+**Square grid banner (1200 × 1200):** [WebP](docs/portfolio/form/assets/form-thumbnail.webp) · [PNG](docs/portfolio/form/assets/form-thumbnail.png)
+
 **[Browse the preview and image library](docs/portfolio/form/README.md)** · [Case-study copy](docs/portfolio/form/CASE-STUDY.md) · [Implementation prompt](docs/portfolio/form/START-HERE.md) · [Download the pack](docs/portfolio/form/form-portfolio-pack.zip)
 
 ## Set up

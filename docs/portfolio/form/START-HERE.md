@@ -28,3 +28,5 @@ Preserve existing uncommitted work. Use the supplied factual copy without invent
 | Image roles, dimensions, captions and alt text | `ASSET-MANIFEST.json` |
 
 The recommended images are `form-thumbnail.webp`, `form-hero.webp`, `form-workspace.webp`, `form-before-after.webp`, `form-focus.webp` and `form-export.webp`. The seven additional images include the original room, actual AI render and unframed UI screenshots.
+
+The grid cover `form-thumbnail.webp` is **1200 × 1200 px (1:1)**, matching the Akkivo banner. Use a square grid image container without stretching. A same-size PNG alternative is included as `form-thumbnail.png`; keep the wide `form-hero.webp` for the case-study hero.

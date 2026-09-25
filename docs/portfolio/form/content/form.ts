@@ -33,7 +33,7 @@ export const form = {
 
 export const formGridTile = {
   image: "/assets/form-thumbnail.webp",
-  alt: "Form room studio in Urbanist typography with a lime frame, rounded white panel, the line Make room for your ideas and an actual AI-generated furnishing result.",
+  alt: "Square Form room studio banner in Urbanist typography with a lime frame, rounded white panel, the line Make room for your ideas and an actual AI-generated furnishing result.",
   panel: "form",
 } as const;
 

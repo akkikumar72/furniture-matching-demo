@@ -14,3 +14,7 @@ The portfolio app was not modified or built for this handoff. Its integration ch
 ## GitHub publication checks
 
 The documentation branch passed `npm run lint`, `npm run typecheck` and all 17 tests in its existing application baseline. Image dimensions, manifest byte sizes, rendered HTML asset references, README links and ZIP integrity were checked. GitHub links were also verified in the served interactive preview. The separate uncommitted room-studio implementation is not part of this branch.
+
+## Square grid cover
+
+The supplied Akkivo reference and both Form grid-cover formats measure 1200 × 1200 pixels. The source artboard was reflowed to a square and captured at native size with Urbanist loaded. The updated grid cover was visually inspected for clipping and distortion; the PNG and WebP downloads are included in the preview and ZIP.
