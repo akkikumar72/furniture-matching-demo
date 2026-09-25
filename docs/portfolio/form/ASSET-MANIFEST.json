@@ -1,0 +1,172 @@
+{
+  "version": 1,
+  "prepared": "2026-09-25",
+  "theme": "Sunbeam-inspired portfolio presentation only",
+  "typeface": "Urbanist",
+  "reference": "https://sunbeam.framer.media/",
+  "fontReference": "https://fonts.google.com/specimen/Urbanist",
+  "notes": [
+    "Live Form app appearance is unchanged.",
+    "AI-generated still is an actual successful Form app render.",
+    "Original photograph comes from the existing user draft; external licence was not recorded.",
+    "Core content uses six images. Optional images are alternatives, not extra grid tiles."
+  ],
+  "assets": [
+    {
+      "file": "assets/form-thumbnail.webp",
+      "portfolioPath": "/assets/form-thumbnail.webp",
+      "set": "core",
+      "role": "Grid cover",
+      "alt": "Form in Urbanist typography, with a lime frame, rounded white panel and an actual furnished-room render.",
+      "caption": "Sunbeam-inspired presentation of the actual Form output.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 128020,
+      "source": "Actual Form app capture; branded frames are portfolio presentation artwork"
+    },
+    {
+      "file": "assets/form-hero.webp",
+      "portfolioPath": "/assets/form-hero.webp",
+      "set": "core",
+      "role": "Case-study hero",
+      "alt": "Form room studio with Urbanist type, a lime surround and the finished loft render.",
+      "caption": "Make room for your ideas.",
+      "width": 1280,
+      "height": 720,
+      "bytes": 102070,
+      "source": "Actual Form app capture; branded frames are portfolio presentation artwork"
+    },
+    {
+      "file": "assets/form-workspace.webp",
+      "portfolioPath": "/assets/form-workspace.webp",
+      "set": "core",
+      "role": "Lead image",
+      "alt": "The actual Form Design workspace with a furniture library alongside an editable room photograph.",
+      "caption": "Real app screenshot. Furniture remains approximate until rendering.",
+      "width": 1280,
+      "height": 1152,
+      "bytes": 115546,
+      "source": "Actual Form app capture; branded frames are portfolio presentation artwork"
+    },
+    {
+      "file": "assets/form-before-after.webp",
+      "portfolioPath": "/assets/form-before-after.webp",
+      "set": "core",
+      "role": "The idea",
+      "alt": "The original empty loft beside an actual AI-generated furnished version from Form.",
+      "caption": "Original photo and AI-generated still. Generated details and placement may vary.",
+      "width": 1280,
+      "height": 900,
+      "bytes": 118778,
+      "source": "Actual Form app capture; branded frames are portfolio presentation artwork"
+    },
+    {
+      "file": "assets/form-focus.webp",
+      "portfolioPath": "/assets/form-focus.webp",
+      "set": "core",
+      "role": "The workspace",
+      "alt": "Actual Form focus mode with a selected chair and controls for size, position, rotation and colour.",
+      "caption": "Selected furniture remains editable over the original photograph.",
+      "width": 1280,
+      "height": 1152,
+      "bytes": 131288,
+      "source": "Actual Form app capture; branded frames are portfolio presentation artwork"
+    },
+    {
+      "file": "assets/form-export.webp",
+      "portfolioPath": "/assets/form-export.webp",
+      "set": "core",
+      "role": "How it is built",
+      "alt": "Actual Form export dialog showing the finished render, format and resolution options.",
+      "caption": "JPEG, PNG, WebP and PDF. Larger presets upscale the existing image.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 63500,
+      "source": "Actual Form app capture; branded frames are portfolio presentation artwork"
+    },
+    {
+      "file": "assets/form-room-original.webp",
+      "portfolioPath": "/assets/form-room-original.webp",
+      "set": "optional",
+      "role": "Original photograph",
+      "alt": "Original unfurnished loft photograph from the active Form draft.",
+      "caption": "Source photograph from the existing user draft.",
+      "width": 1280,
+      "height": 720,
+      "bytes": 109012,
+      "source": "Actual Form app capture; branded frames are portfolio presentation artwork"
+    },
+    {
+      "file": "assets/form-room-rendered.webp",
+      "portfolioPath": "/assets/form-room-rendered.webp",
+      "set": "optional",
+      "role": "Native render",
+      "alt": "Actual AI-generated loft furnishing result produced by Form.",
+      "caption": "Native 1536 × 1024 output from the app, without presentation framing.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 295048,
+      "source": "Form local app and its explicit AI render"
+    },
+    {
+      "file": "assets/form-design-raw.webp",
+      "portfolioPath": "/assets/form-design-raw.webp",
+      "set": "optional",
+      "role": "Design screenshot",
+      "alt": "Actual Form Design workspace with seven furniture pieces.",
+      "caption": "Unframed app capture.",
+      "width": 1473,
+      "height": 1223,
+      "bytes": 136472,
+      "source": "Actual Form app capture; branded frames are portfolio presentation artwork"
+    },
+    {
+      "file": "assets/form-editing-raw.webp",
+      "portfolioPath": "/assets/form-editing-raw.webp",
+      "set": "optional",
+      "role": "Editing screenshot",
+      "alt": "Actual Form workspace with room contents and selected chair properties.",
+      "caption": "Unframed app capture.",
+      "width": 1473,
+      "height": 1223,
+      "bytes": 139184,
+      "source": "Actual Form app capture; branded frames are portfolio presentation artwork"
+    },
+    {
+      "file": "assets/form-focus-raw.webp",
+      "portfolioPath": "/assets/form-focus-raw.webp",
+      "set": "optional",
+      "role": "Focus screenshot",
+      "alt": "Actual Form focus mode with floating furniture controls.",
+      "caption": "Unframed app capture.",
+      "width": 1473,
+      "height": 1223,
+      "bytes": 162768,
+      "source": "Actual Form app capture; branded frames are portfolio presentation artwork"
+    },
+    {
+      "file": "assets/form-rendered-workspace-raw.webp",
+      "portfolioPath": "/assets/form-rendered-workspace-raw.webp",
+      "set": "optional",
+      "role": "Rendered screenshot",
+      "alt": "Actual Form Rendered view with a finished AI-generated room.",
+      "caption": "Unframed app capture.",
+      "width": 1473,
+      "height": 1223,
+      "bytes": 158468,
+      "source": "Actual Form app capture; branded frames are portfolio presentation artwork"
+    },
+    {
+      "file": "assets/form-export-raw.webp",
+      "portfolioPath": "/assets/form-export-raw.webp",
+      "set": "optional",
+      "role": "Export screenshot",
+      "alt": "Actual Form export dialog over the room workspace.",
+      "caption": "Unframed app capture.",
+      "width": 1473,
+      "height": 1223,
+      "bytes": 105622,
+      "source": "Actual Form app capture; branded frames are portfolio presentation artwork"
+    }
+  ]
+}

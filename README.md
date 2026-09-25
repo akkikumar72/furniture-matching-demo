@@ -10,6 +10,14 @@ The application, Supabase migration, catalogue preparation/import scripts, sourc
 
 **Live OpenAI matching and managed Supabase are connected and tested.** The migration and catalogue import are complete in the configured project. Real browser searches have returned catalogue and web products, with unconfirmed offers kept separate. No synthetic results are used by the application. See `docs/validation.md` for measured latency, individual outcomes and remaining limits.
 
+## Portfolio preview
+
+The photo-based room-studio prototype has a **Sunbeam-inspired portfolio pack** with Urbanist typography, lime framing, real UI screenshots and an actual AI-generated room image. This documentation update publishes the preview and handoff assets; the room-editor implementation is separate local work.
+
+[![Form portfolio preview](docs/portfolio/form/assets/form-hero.webp)](docs/portfolio/form/README.md)
+
+**[Browse the preview and image library](docs/portfolio/form/README.md)** · [Case-study copy](docs/portfolio/form/CASE-STUDY.md) · [Implementation prompt](docs/portfolio/form/START-HERE.md) · [Download the pack](docs/portfolio/form/form-portfolio-pack.zip)
+
 ## Set up
 
 Requires Node.js 22+ and npm. Run commands from this folder.
